@@ -1,0 +1,4 @@
+# Archive is a GitHub Release asset (286 MiB). Do not commit it.
+archive-v3/*.tar.zst
+archive-v3/*.tar.zst.part-*
+.DS_Store
