@@ -31,8 +31,8 @@ Every file in the git tree (and the release archive) is listed in
 ## Release assets
 
 - `locating-domination-census.pdf` — preprint. SHA-256
-  `1466eedd2491c1b5d3f73cb0f88f5d16abde3481ea77f1f80054d84ba3c14a02`
-  (96844 bytes)
+  `50411749fd31eed51383f82d45f753056b555b62066c0753c4f28b7d6eaad68b`
+  (96571 bytes)
 - `locating-domination-orders10-26-v2.tar.zst.part-000` — archive
 - `SHA256SUMS`, `report.json`, input manifest, and the accompanying
   JSON files
