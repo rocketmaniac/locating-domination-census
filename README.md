@@ -51,4 +51,4 @@ The subsection *Certificate validation* in the PDF says how a single
 graph is checked: reconstruct the stored locating-dominating set and
 verify domination and the distinct sets $N(v)\cap D$ directly
 on the graph. File hashes for the deposited 10–26 objects are in
-[`ARTIFACTS.md`](ARTIFACTS.md).
+[`ARTIFACTS.md`](ARTIFACTS.md) and `SHA256SUMS`, not in the paper.

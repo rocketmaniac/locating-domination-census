@@ -3,15 +3,15 @@
 This file is for readers who need checksums. The mathematical claims
 are in the [README](README.md) and the
 [preprint](https://github.com/rocketmaniac/locating-domination-census/releases/download/v2/locating-domination-census.pdf).
+The paper does not list these hashes.
 
 Release [v2](https://github.com/rocketmaniac/locating-domination-census/releases/tag/v2)
-holds the 10–26 evidence archive and the verification reports cited
-in the paper. The git tree holds the small JSON files and
-`SHA256SUMS`. The archive itself
-is release-only (299,594,503 bytes). Order-28 certificates are not
-part of this deposit.
+holds the 10–26 evidence archive and the verification reports.
+The git tree holds the small JSON files and `SHA256SUMS`. The archive
+itself is release-only (299,594,503 bytes). Order-28 certificates are
+not part of this deposit.
 
-## SHA-256 identities cited by the paper
+## SHA-256 identities
 
 | Object | SHA-256 |
 | --- | --- |
@@ -22,17 +22,13 @@ part of this deposit.
 
 The verification report records `expected=193969`, `verified=193969`,
 `status_counts.non_tight=193969`, `status_counts.tight=0`,
-`proof_count=0`. Remaining manuscript hashes are in the preprint
-section *Deposited evidence*.
-
-Every file in the git tree (and the release archive) is listed in
-`SHA256SUMS`.
+`proof_count=0`. Remaining file identities are in `SHA256SUMS`.
 
 ## Release assets
 
 - `locating-domination-census.pdf` — preprint. SHA-256
-  `50411749fd31eed51383f82d45f753056b555b62066c0753c4f28b7d6eaad68b`
-  (96571 bytes)
+  `c9a48fab576d5c763655dc6cf6943375c80e7c620fa45c2f619578ec124167f7`
+  (79963 bytes)
 - `locating-domination-orders10-26-v2.tar.zst.part-000` — archive
 - `SHA256SUMS`, `report.json`, input manifest, and the accompanying
   JSON files
