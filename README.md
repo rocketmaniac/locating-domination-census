@@ -1,51 +1,53 @@
-# Locating-domination strict-bound v2 artifacts
+# Locating-domination on twin-free cubic bipartite graphs
 
-Public evidence deposit for the preprint *A Certificate-Backed
-Locating-Domination Strict-Bound Census for Connected Cubic Bipartite
-Graphs of Orders 10–26*.
+Read the preprint first:
 
-**Author / copyright.** ROCKETMANIA INC.  
-**License.** Originally generated contents are [CC BY 4.0](LICENSE-DATA.md).  
-**Claim (only public claim).** Twin-free connected simple cubic bipartite
-graphs of even order 10–26: **193,969** graphs, **193,969** non-tight,
-**0** tight. Independently verified. Exact \(\gamma_L\) is withheld.
-Order 28 is withheld.
+**[A Certificate-Backed Locating-Domination Census for Twin-Free Connected Cubic Bipartite Graphs of Orders 10–28](https://github.com/rocketmaniac/ld-strict-bound-v2-artifacts/releases/download/v2/ld-strict-bound-v2-preprint.pdf)**  
+(Paul A. Barros, 26 August 2026).
 
-This repository is an artifacts-only deposit. It is not the research
-source tree.
+A locating-dominating set is a dominating set that also separates the
+vertices outside it. Write $\gamma_L(G)$ for the locating-domination
+number. On twin-free graphs one can ask, in the spirit of Slater,
+whether $\gamma_L = n/2$ is attained. This note studies that question
+on the twin-free connected cubic bipartite graphs of even order.
 
-## Frozen identities (paper-cited)
+## Finite statements
 
-| Object | SHA-256 |
-| --- | --- |
-| `verification-v2/report.json` (file) | `cb9b471a15add06ccaa1d65da0a0a049cba5be197bb9b33a9ad8b456f80c942c` |
-| report payload | `46a6bad91d3d2636c6e757125be93534a28ea404df15bc98c85ea0b845803512` |
-| input manifest file | `a4b067bc3965c16e7a574039942ea60a4d22321431dace2d440bd00cda6b1641` |
-| archive v3 object | `7dae0e0c977f1c266466884153657ec363973b29c152dfc805ed8724e91335ee` (299,594,503 bytes) |
+These are census statements, not an arbitrary-order theorem.
 
-Report fields: `expected=193969`, `verified=193969`,
-`status_counts.non_tight=193969`, `status_counts.tight=0`,
-`proof_count=0`. Remaining manuscript hashes are in the preprint frozen
-identities section.
+- **Orders 10–26.** There are 193,969 such graphs. Each has a
+  locating-dominating set of size at most $n/2-1$: all are
+  *non-tight*, and none is *tight*. The classification was
+  independently rechecked.
+- **Order 28.** There are 1,650,044 such graphs. The exact
+  $\gamma_L$ histogram, independently rechecked, is
+  1,619,934 / 30,067 / 43 at the values 10 / 11 / 12
+  (hence $\gamma_L \le 12 \le n/2-1$). The table is in the PDF.
 
-## Release assets
+Exact $\gamma_L$ values for the individual order-10–26 graphs are
+not published here. **Order 30 is not claimed.**
 
-The 299,594,503-byte archive and the paper-cited reports/manifests are
-attached to GitHub Release **v2**:
+## Ordinary domination is a different census
 
-https://github.com/rocketmaniac/ld-strict-bound-v2-artifacts/releases/tag/v2
+This work is about $\gamma_L$, not ordinary domination $\gamma$ or
+independent domination $i(G)$. Brinkmann and Van Overberghe already
+computed $\gamma$ and $i(G)$ on cubic graphs through order 26
+([arXiv:2606.16698](https://arxiv.org/abs/2606.16698)); Van Overberghe
+has since carried that $\gamma$ / $i(G)$ census through order 36.
 
-- `locating-domination-orders10-26-v2.tar.zst.part-000` — archive v3 object
-- `SHA256SUMS` — SHA-256 of every file deposited here (including the archive)
-- `report.json` — independent verification report
-- manifests: input manifest, campaign provenance/config/summaries, archive index and provenance
+## What is *not* on GitHub
 
-The git tree holds the small paper-cited JSON files and `SHA256SUMS`.
-The archive is release-only (286 MiB; under the 2 GiB GitHub asset limit).
+The order-28 certificates (about 21 GiB) are not uploaded. This
+repository is a small public deposit, not the research source tree.
+Originally generated contents are [CC BY 4.0](LICENSE-DATA.md).
 
-## How to check
+Release [v2](https://github.com/rocketmaniac/ld-strict-bound-v2-artifacts/releases/tag/v2)
+holds the preprint PDF and the 10–26 evidence archive (about 286 MiB).
 
-```console
-shasum -a 256 -c SHA256SUMS
-python3 -c "import json; r=json.load(open('verification-v2/report.json')); assert r['expected']==r['verified']==193969; assert r['status_counts']=={'non_tight':193969,'tight':0}; assert r['proof_count']==0"
-```
+## How to check a small example
+
+The subsection *Certificate validation* in the PDF says how a single
+graph is checked: reconstruct the stored locating-dominating set and
+verify domination and the distinct $N(v)\cap D$ signatures directly
+on the graph. File hashes for the deposited 10–26 objects are in
+[`ARTIFACTS.md`](ARTIFACTS.md).
