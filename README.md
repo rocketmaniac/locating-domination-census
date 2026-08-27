@@ -2,7 +2,7 @@
 
 Read the preprint first:
 
-**[A Certificate-Backed Locating-Domination Census for Twin-Free Connected Cubic Bipartite Graphs of Orders 10–28](https://github.com/rocketmaniac/ld-strict-bound-v2-artifacts/releases/download/v2/ld-strict-bound-v2-preprint.pdf)**  
+**[A Certificate-Backed Locating-Domination Census for Twin-Free Connected Cubic Bipartite Graphs of Orders 10–28](https://github.com/rocketmaniac/locating-domination-census/releases/download/v2/locating-domination-census.pdf)**  
 (Paul A. Barros, 27 August 2026).
 
 A locating-dominating set, in the sense of Slater, is a dominating set
@@ -42,7 +42,7 @@ The order-28 certificates (about 21 GiB) are not uploaded. This
 repository is a small public deposit, not the research source tree.
 Originally generated contents are [CC BY 4.0](LICENSE-DATA.md).
 
-Release [v2](https://github.com/rocketmaniac/ld-strict-bound-v2-artifacts/releases/tag/v2)
+Release [v2](https://github.com/rocketmaniac/locating-domination-census/releases/tag/v2)
 holds the preprint PDF and the 10–26 evidence archive (about 286 MiB).
 
 ## How to check a small example

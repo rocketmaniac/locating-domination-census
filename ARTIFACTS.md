@@ -2,9 +2,9 @@
 
 This file is for readers who need checksums. The mathematical claims
 are in the [README](README.md) and the
-[preprint](https://github.com/rocketmaniac/ld-strict-bound-v2-artifacts/releases/download/v2/ld-strict-bound-v2-preprint.pdf).
+[preprint](https://github.com/rocketmaniac/locating-domination-census/releases/download/v2/locating-domination-census.pdf).
 
-Release [v2](https://github.com/rocketmaniac/ld-strict-bound-v2-artifacts/releases/tag/v2)
+Release [v2](https://github.com/rocketmaniac/locating-domination-census/releases/tag/v2)
 holds the 10–26 evidence archive and the verification reports cited
 in the paper. The git tree holds the small JSON files and
 `SHA256SUMS`. The archive itself
@@ -30,9 +30,8 @@ Every file in the git tree (and the release archive) is listed in
 
 ## Release assets
 
-- `ld-strict-bound-v2-preprint.pdf` — preprint (filename kept so the
-  existing download URL stays valid). SHA-256
-  `e48f2f602cebfa624f95c72adfce7f1afe70eff995c0356655c9fd9b7da90151`
+- `locating-domination-census.pdf` — preprint. SHA-256
+  `1466eedd2491c1b5d3f73cb0f88f5d16abde3481ea77f1f80054d84ba3c14a02`
   (96844 bytes)
 - `locating-domination-orders10-26-v2.tar.zst.part-000` — archive
 - `SHA256SUMS`, `report.json`, input manifest, and the accompanying
