@@ -32,7 +32,7 @@ Every file in the git tree (and the release archive) is listed in
 
 - `ld-strict-bound-v2-preprint.pdf` — preprint (filename kept so the
   existing download URL stays valid). SHA-256
-  `ec7079867876e33f92120077a197adb817fc6b1ae8baef317ee34d37c47b3912`
+  `e48f2f602cebfa624f95c72adfce7f1afe70eff995c0356655c9fd9b7da90151`
   (96844 bytes)
 - `locating-domination-orders10-26-v2.tar.zst.part-000` — archive
 - `SHA256SUMS`, `report.json`, input manifest, and the accompanying
