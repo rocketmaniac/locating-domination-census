@@ -33,8 +33,10 @@ not published here. **Order 30 is not claimed.**
 
 This work is about $\gamma_L$, not ordinary domination $\gamma$ or
 independent domination $i(G)$. Brinkmann and Van Overberghe already
-computed $\gamma$ and $i(G)$ on cubic graphs through order 26
+computed $\gamma$ and $i(G)$ on all cubic graphs through order 26
 ([arXiv:2606.16698](https://arxiv.org/abs/2606.16698)).
+Van Overberghe has also computed both parameters on every cubic
+bipartite graph through order 36 (personal communication, 2026).
 
 ## What is *not* on GitHub
 
