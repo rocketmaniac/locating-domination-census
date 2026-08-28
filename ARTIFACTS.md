@@ -27,8 +27,8 @@ The verification report records `expected=193969`, `verified=193969`,
 ## Release assets
 
 - `locating-domination-census.pdf` — preprint. SHA-256
-  `c9a48fab576d5c763655dc6cf6943375c80e7c620fa45c2f619578ec124167f7`
-  (79963 bytes)
+  `aae2d44c27bd1986e449780a9eb7c918b4bf6d3ad9ddc4b898a29e00e59a9bf3`
+  (81343 bytes)
 - `locating-domination-orders10-26-v2.tar.zst.part-000` — archive
 - `SHA256SUMS`, `report.json`, input manifest, and the accompanying
   JSON files
